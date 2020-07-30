@@ -1,0 +1,18 @@
+.Search__input {
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+  input {
+    border-color: silver;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding-left: 5px;
+  }
+  button {
+    background-color: rgb(245, 62, 62);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 10px;
+  }
+}

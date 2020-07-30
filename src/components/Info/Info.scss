@@ -1,0 +1,75 @@
+.Info__wrapper {
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  hr {
+    width: 100%;
+  }
+  img {
+    width: 50%;
+  }
+}
+
+.Info__hero-description {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+/* Expand image on click */
+.Info__modal {
+  width: 50%;
+  position: fixed;
+  text-align: center;
+}
+
+.ReactModal__Overlay--after-open {
+  background-color: rgba(0, 0, 0, 0.86) !important;
+  img {
+    width: 600px;
+    height: 900px;
+    position: fixed;
+    top: 2%;
+    left: 34%;
+  }
+}
+
+.Home{
+  position: absolute;
+  top: 30%;
+  left: 90%;
+}
+
+/* Toggle button show/hide comics*/
+#show-hide-comics-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.hideComics {
+  display: none !important;
+}
+
+.displayComics {
+  display: block !important;
+}
+
+.switch.btn.on.btn-dark {
+  width: 12%;
+}
+.switch.btn.off.btn-light {
+  width: 12%;
+}
+.switch-handle.btn.btn-light {
+  background-color: lightgrey;
+}
+/* Shown comics */
+.Info__hero-appearance {
+  margin-top: 50px;
+}
+
+.Info__comics-wrapper {
+  margin-bottom: 50px;
+}

@@ -1,0 +1,15 @@
+.Footer__wrapper {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  p {
+    color: white;
+    margin: 0;
+    padding: 10px;
+  }
+}
